@@ -41,7 +41,7 @@ import socket
 def start_client():
     # Menentukan alamat IP dan port server
     server_ip = '0.0.0.0'  # Alamat IP server
-    server_port = 8000
+    server_port = 8001
 
     # Membuat socket TCP
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
